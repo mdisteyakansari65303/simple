@@ -3,111 +3,8 @@
 <html>
 <head>
 	<h1><center>Registration form</center></h1>
-	<style>
-		body{
-			background-image: url(end.jpg);
-			background-size: cover;
-			margin: 0;
-			padding: 0;
-		}
-
-		h1{
-			margin-top: 80px;
-			margin-left: 870px;
-			color: orange;
-			text-shadow: 2px 2px 2px white;
-		}
-		form{
-
-			border: 2px solid  rgba(25, 0, 0, 0.1);
-			height: 80%;
-			width: 23%;
-			margin-left: 930px;
-			margin-top: 20px;
-			background-color: rgba(25, 0, 0, .3);
-			border-radius: 30px;
-			box-shadow: 5px 6px 2px black;
-			outline: none;
-			color: white;
-		}
-
-		form:hover{
-			background-color: skyblue;
-			transition: 8.0s;
-		}
-		button{
-			background-color:white ;
-			margin-left: 60px;
-			color: black;
-			border-radius: 7px;
-			cursor: pointer;
-			box-shadow: 2px 2px 2px black;
-			outline: none;
-		}
-
-		#res{
-			margin-left: 70px;
-		}
-		input{
-			outline: none;
-
-		}
-
-		nav{
-			background-color: rgba(25, 0, 0, 1.3);
-			color: white;
-			margin-top: -36%;
-			overflow:auto;
-			height: 50px;
-			color: white;
-			border-radius: 20px;
-		}
-		nav:hover{
-			background-color: cyan;
-			transition: 4.0s;
-		}
-		a{
-			
-			color: red;
-			margin-left: 200px;
-			text-decoration: none;
-		}
-		a:hover{
-			color:black;
-			transition: 2.0s;
-			text-decoration: underline;
-		}
-
-		h3{
-			margin-top: -39px;
-			margin-left: 25px;
-			color: orangered;
-			font-family: algerian;
-			position: fixed;
-		}
-
-		.design{
-			color: black;
-			margin-left: 40px;
-			margin-top: -25px;
-			position: fixed;
-
-		}
-
-		.hi{
-			border: 2px solid black;
-			border: none;
-			height: 30px;
-			width: 8%;
-			border-top-right-radius: 23px;
-			border-bottom-left-radius: 23px;
-			margin-top: -46px;
-			margin-left: 12px;
-			background-color: limegreen;
-			position: fixed;
-			background-color: none;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css">
+	
 </head>
 <body>
 <form><br>
@@ -122,10 +19,10 @@
 	 &nbsp&nbsp&nbsp Gender:
 	<input type="radio" value="MALE" name="male" >MALE
 	<input type="radio" value="FEMALE" name="male">FEMALE<br><br>
-	&nbsp&nbsp&nbsp Course:<input type="radio" name="m" value="it">it
-	<input type="radio" name="m" value="it">cse
-	<input type="radio" name="m" value="it">civil
-	<input type="radio" name="m" value="it">ece<br><br>
+	&nbsp&nbsp&nbsp Course:<input type="checkbox" name="m" value="it">IT
+	<input type="checkbox" name="m" value="it">CSE
+	<input type="checkbox" name="m" value="it">CIVIL
+	<input type="checkbox" name="m" value="it">ECE<br><br>
 	&nbsp&nbsp&nbsp Campus select: <select>
 		<option>Select</option>
 		<option>Hyderabad</option>
@@ -146,6 +43,6 @@
 	</ul>
 </nav>
 <h3>ISTE<div class="design">YAK</div></h3>
-<div class="hi"></div>
+<div class="ist"></div>
 </body>
 </html>
